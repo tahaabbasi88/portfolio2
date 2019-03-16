@@ -1,0 +1,94 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url("images/gravel.png");
+    background-repeat: repeat;
+
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: #222;
+    text-align: center;
+}
+
+p.text-muted {
+    color: white;
+    padding-top: 20px;
+}
+
+.custom-container {
+    background-color: white;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    max-width: 960px;
+    /* width: 800px; */
+
+}
+
+.custom-portfolio,
+.custom-contact {
+    background-color: white;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    max-width: 960px;
+}
+
+.myimage {
+    margin-left: 20px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    box-shadow: 5px 0 10px 2px black;
+}
+
+.headingme {
+    padding-left: 20px;
+}
+
+.aboutmepara {
+    padding-left: 40px;
+}
+
+.images-gallery {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+}
+
+.wrapper {
+    margin-left: 40px;
+}
+
+.tech1,
+.tech3 {
+    margin-right: 50px;
+
+}
+
+#nav_bar {
+    background-color: rgb(0, 81, 255);
+    border-color: rgb(0, 81, 255);
+    }
+
+#footer_update {
+    background-color: rgb(0, 81, 255);
+    border-color: rgb(0, 81, 255);
+    }
